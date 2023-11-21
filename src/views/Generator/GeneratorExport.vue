@@ -44,7 +44,7 @@ export default {
 
       window
         .fetch(
-          "https://us-central1-bulmagenerator.cloudfunctions.net/generate",
+          "http://cloud-bulma-generate:8081",
           {
             method: "POST",
             mode: "cors",
