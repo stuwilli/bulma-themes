@@ -10,7 +10,7 @@ RUN yarn install
 
 COPY . .
 #RUN npm run generate-client
-RUN npm run build
+RUN yarn run build
 
 # Production stage
 FROM node:12.22.12-bullseye as production-stage
