@@ -16,7 +16,6 @@ const returnCustomColors = function(config) {
 }
 
 export const generate = value => {
-  console.log(value)
   const config = value
 
   var sassBody = `
